@@ -11,10 +11,9 @@ function drawSpaceInvader() {
     context.beginPath();
     context.rect(50, 50, 300, 300);
     context.lineWidth=3;
-    context.fillStyle="white"
+    context.fillStyle="black"
     context.fill();
 
-    document.body.style.backgroundColor = "black";
 
     context.beginPath();
     context.rect(125, 75, 150, 50);
@@ -26,7 +25,7 @@ function drawSpaceInvader() {
     context.rect(75, 275, 50, 50);
     context.rect(175, 275, 50, 50);
     context.rect(275, 275, 50, 50);
-    context.fillStyle="purple"
+    context.fillStyle="#00FF00"
     context.fill();
 
 
